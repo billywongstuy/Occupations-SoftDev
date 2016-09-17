@@ -12,7 +12,7 @@ for row in sheet:
         percent = float(row[1])
         jobs[job] = percent
 
-#print jobs
+#print jobs 
 
 rand = float(random.randrange(998))/10
 tracker = rand
